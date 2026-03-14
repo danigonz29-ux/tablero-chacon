@@ -10,7 +10,7 @@ export const DEMO_DATA: DashboardData = {
     ondaExpansiva: 0,
     ondaFactor: 300,
     ondaAuto: true,
-    totalInvertido: 8546345,
+    totalInvertido: 0,
   },
   links: [
     {
@@ -76,12 +76,12 @@ export const DEMO_DATA: DashboardData = {
     sms: {
       enviosDiarios: 385735,
       frecuencia: "Interdiario",
-      costoUnitario: 32,
+      costoUnitario: 0,
     },
     llamadas: {
       llamadasDiarias: 153789,
       frecuencia: "Interdiario",
-      costoUnitario: 862,
+      costoUnitario: 0,
     },
   },
   pautaMeta: [
