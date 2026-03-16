@@ -2,7 +2,7 @@ import type { DashboardData } from "./types";
 
 export const DEMO_DATA: DashboardData = {
   kpis: {
-    cantidad: 68,
+    cantidad: 6845,
     meGusta: 50277,
     compartido: 33277,
     comentario: 2643,
