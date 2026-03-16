@@ -16,23 +16,23 @@ import { EditModeBanner } from "./edit-mode-banner";
 function DashboardContent() {
   return (
     <div className="min-h-screen bg-background">
-      {/* Campaign Header - bold red with yellow L100 badge */}
+      {/* Campaign Header - bold red with yellow l20 badge */}
       <header className="sticky top-0 z-40 bg-primary shadow-lg">
         {/* Decorative yellow stripe at very top */}
         <div className="h-1 bg-accent" />
         <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6">
           <div className="flex items-center gap-4">
-            {/* MP Badge - yellow square like the campaign */}
+            {/* AJ Badge - yellow square like the campaign */}
             <div className="flex items-center gap-2.5">
               <span className="flex size-9 items-center justify-center bg-accent text-sm font-bold text-accent-foreground">
-                MP
+                AJ
               </span>
               <div className="flex flex-col leading-none">
                 <span className="text-sm font-bold tracking-wide text-primary-foreground uppercase">
                   {"Alejandro Chacon"}
                 </span>
                 <span className="text-[10px] font-bold tracking-[0.25em] text-accent">
-                  L100
+                  L20
                 </span>
               </div>
             </div>
@@ -48,7 +48,7 @@ function DashboardContent() {
           </div>
           <div className="flex items-center gap-3">
             <div className="hidden items-center gap-2 text-[10px] font-bold tracking-widest text-primary-foreground/50 uppercase md:flex">
-              <span>El Camino</span>
+              <span></span>
               <span className="text-accent">{"/"}</span>
               <span>{"Unete"}</span>
               <span className="text-accent">{"/"}</span>
@@ -141,7 +141,7 @@ function DashboardContent() {
               {"El camino es la cultura"}
             </p>
             <p className="mt-1 text-[10px] tracking-widest text-primary-foreground/50 uppercase">
-              {"L 100 \u00B7 Alejandro Chacon \u00B7 Senado"} {new Date().getFullYear()}
+              {"L 100 \u00B7 Alejandro Chacon\u00B7 Senado"} {new Date().getFullYear()}
             </p>
           </div>
           {/* Spacer for balance */}
