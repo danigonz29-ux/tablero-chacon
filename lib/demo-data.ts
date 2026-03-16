@@ -2,21 +2,22 @@ import type { DashboardData } from "./types";
 
 export const DEMO_DATA: DashboardData = {
   kpis: {
-    ContenidosApoyados: 68,
-    GusInteraccionesobtenidas: 50277,
-    compartidosenmedios: 33277,
-    comentariosgenerados: 2643,
+    contenidosApoyados: 68,
+    gusInteraccionesObtenidas: 50277,
+    compartidosEnMedios: 33277,
+    comentariosGenerados: 2643,
     seguidoresCaptados: 1546,
     ondaExpansiva: 0,
     ondaFactor: 500,
     ondaAuto: true,
     totalInvertido: 0,
   },
-  Principales links Apoyados: [
+
+  principalesLinksApoyados: [
     {
       id: "l1",
       publicacion: "Ser pilo paga",
-      url: "https://www.facebook.com/reel/738035089100324,
+      url: "https://www.facebook.com/reel/738035089100324",
       medio: "Facebook",
       cantidad: 134646,
       engagementRate: 13,
@@ -62,6 +63,7 @@ export const DEMO_DATA: DashboardData = {
       engagementRate: 5,
     },
   ],
+
   temas: [
     { id: "t1", tema: "Territorio y comunidad", cantidad: 5510 },
     { id: "t2", tema: "Democracia", cantidad: 6450 },
@@ -70,7 +72,9 @@ export const DEMO_DATA: DashboardData = {
     { id: "t5", tema: "Medio Ambiente", cantidad: 1766 },
     { id: "t6", tema: "Defensa de conversación", cantidad: 2203 },
   ],
+
   medios: [],
+
   contactoDirecto: {
     diasCampana: 10,
     sms: {
@@ -84,88 +88,9 @@ export const DEMO_DATA: DashboardData = {
       costoUnitario: 0,
     },
   },
-  pautaMeta: [
-    {
-      id: "pm1",
-      campana: "Reconocimiento_5Dias",
-      resultados: 16091,
-      tipoResultado: "Alcance",
-      costoPorResultado: 989,
-      importeGastado: 15906,
-      impresiones: 16589,
-      alcance: 16675,
-    },
-    {
-      id: "pm2",
-      campana: "Reconocimiento_Marca_L100",
-      resultados: 99131,
-      tipoResultado: "Alcance",
-      costoPorResultado: 1058,
-      importeGastado: 104888,
-      impresiones: 108722,
-      alcance: 104247,
-    },
-    {
-      id: "pm3",
-      campana: "Trafico_Video_SabesQuienEsL10",
-      resultados: 2121,
-      tipoResultado: "Visitas al perfil y a la pagina",
-      costoPorResultado: 260,
-      importeGastado: 551202,
-      impresiones: 77173,
-      alcance: 50824,
-    },
-    {
-      id: "pm4",
-      campana: "Campana de Trafico con la configuracion recomendada",
-      resultados: 5153,
-      tipoResultado: "Visitas al perfil de Instagram",
-      costoPorResultado: 146,
-      importeGastado: 752902,
-      impresiones: 208918,
-      alcance: 130107,
-    },
-    {
-      id: "pm5",
-      campana: "Reconocimiento_Video_L100",
-      resultados: 541073,
-      tipoResultado: "Alcance",
-      costoPorResultado: 1561,
-      importeGastado: 844812,
-      impresiones: 769692,
-      alcance: 541073,
-    },
-    {
-      id: "pm6",
-      campana: "Reconocimiento__Bogota_Creatividad",
-      resultados: 0,
-      tipoResultado: "Alcance",
-      costoPorResultado: 0,
-      importeGastado: 0,
-      impresiones: 0,
-      alcance: 0,
-    },
-    {
-      id: "pm7",
-      campana: "Reconocimiento_Armenia",
-      resultados: 0,
-      tipoResultado: "Alcance",
-      costoPorResultado: 0,
-      importeGastado: 0,
-      impresiones: 0,
-      alcance: 0,
-    },
-    {
-      id: "pm8",
-      campana: "Reconocimiento_Video_Falta_1mes",
-      resultados: 474052,
-      tipoResultado: "Alcance",
-      costoPorResultado: 1444,
-      importeGastado: 684474,
-      impresiones: 698539,
-      alcance: 474052,
-    },
-  ],
+
+  pautaMeta: [],
+
   conclusiones: [
     {
       id: "c1",
@@ -180,12 +105,12 @@ export const DEMO_DATA: DashboardData = {
     {
       id: "c3",
       texto:
-        " La campaña de distribución de contenido alterno posicionó la imagen del Senador en sectores apolíticos.",
+        "La campaña de distribución de contenido alterno posicionó la imagen del Senador en sectores apolíticos.",
     },
     {
       id: "c4",
       texto:
-        "Los temas relacionados con territorio, comunidad y democracia muestran mayor capacidad de resonancia, lo que sugiere que estas narrativas generan mayor conexión con las audiencias y representan una oportunidad estratégica para fortalecer el engagement en futuras fases de la estrategia digital.",
+        "Los temas relacionados con territorio, comunidad y democracia muestran mayor capacidad de resonancia, lo que sugiere que estas narrativas generan mayor conexión con las audiencias.",
     },
   ],
 };
