@@ -29,7 +29,7 @@ function DashboardContent() {
               </span>
               <div className="flex flex-col leading-none">
                 <span className="text-sm font-bold tracking-wide text-primary-foreground uppercase">
-                  {"Maria Paz"}
+                  {"Alejandro Chacon"}
                 </span>
                 <span className="text-[10px] font-bold tracking-[0.25em] text-accent">
                   L100
@@ -141,7 +141,7 @@ function DashboardContent() {
               {"El camino es la cultura"}
             </p>
             <p className="mt-1 text-[10px] tracking-widest text-primary-foreground/50 uppercase">
-              {"L 100 \u00B7 Maria Paz Gaviria \u00B7 Senado"} {new Date().getFullYear()}
+              {"L 100 \u00B7 Alejandro Chacon \u00B7 Senado"} {new Date().getFullYear()}
             </p>
           </div>
           {/* Spacer for balance */}
