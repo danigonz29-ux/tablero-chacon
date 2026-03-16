@@ -2,10 +2,10 @@ import type { DashboardData } from "./types";
 
 export const DEMO_DATA: DashboardData = {
   kpis: {
-    Contenidos_Apoyados: 68,
-    GusInteracciones_obtenidas: 50277,
-    compartidos_en_medios: 33277,
-    comentarios generados: 2643,
+    ContenidosApoyados: 68,
+    GusInteraccionesobtenidas: 50277,
+    compartidosenmedios: 33277,
+    comentariosgenerados: 2643,
     seguidoresCaptados: 1546,
     ondaExpansiva: 0,
     ondaFactor: 500,
